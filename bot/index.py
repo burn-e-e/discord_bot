@@ -72,7 +72,6 @@ async def _init_command_response(interaction: Interaction) -> None:
         f"Сайн уу? **{interaction.user}**, юу байна даа?."
     ]))
 
-
 @client.tree.command()
 async def sainuu(interaction: Interaction):
     """ Says hello or something """
