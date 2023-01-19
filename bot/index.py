@@ -65,7 +65,7 @@ async def _init_command_response(interaction: Interaction) -> None:
     """
 
     # Responds in the console that the command has been ran
-    print(f"> {interaction.user} used the command.")
+    print(f"> {interaction.user} command хэрэглэлээ.")
 
     # Then responds in the channel with this message
     await interaction.response.send_message("\n".join([
