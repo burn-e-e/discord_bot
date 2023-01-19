@@ -78,13 +78,5 @@ async def sainuu(interaction: Interaction):
     # Calls the function "_init_command_response" to respond to the command
     await _init_command_response(interaction)
 
-
-@client.tree.command()
-async def givemebadge(interaction: Interaction):
-    """ Says hello or something, but with a different name """
-    # Calls the function "_init_command_response" to respond to the command
-    await _init_command_response(interaction)
-
-
 # Runs the bot with the token you provided
 client.run(token)
