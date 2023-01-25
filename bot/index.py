@@ -77,6 +77,11 @@ async def sainuu(interaction: Interaction):
     """ Says hello or something """
     # Calls the function "_init_command_response" to respond to the command
     await _init_command_response(interaction)
+@client.tree.command()
+async def test(interaction: Interaction):
+    """ Says hello or something """
+    # Calls the function "_init_command_response" to respond to the command
+    await _init_command_response(interaction)
 
 # Runs the bot with the token you provided
 client.run(token)
